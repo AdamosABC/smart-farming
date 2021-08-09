@@ -72,6 +72,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pizzahj"
+    },
+    {
+      "name": "Pezzatesto",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pezzatesto"
     }
   ],
   "variable_elements": [],
