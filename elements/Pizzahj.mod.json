@@ -1,0 +1,28 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "pizza_testo_s_kecupem_se_syrem_a_salemem_opecena",
+    "customModelName": "Normal",
+    "name": "Pizzahj",
+    "rarity": "RARE",
+    "specialInfo": [
+      "pizza"
+    ],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 2,
+    "nutritionalValue": 8,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

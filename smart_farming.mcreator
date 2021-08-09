@@ -63,6 +63,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pizzass"
+    },
+    {
+      "name": "Pizzahj",
+      "type": "food",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pizzahj"
     }
   ],
   "variable_elements": [],
@@ -73,6 +82,7 @@
       "item.smart_farming.rohlik": "Rohlik",
       "item.smart_farming.pizza_l": "Pizza L",
       "item.smart_farming.pizza_1": "pizza tìsto",
+      "item.smart_farming.pizzahj": "Pizzahj",
       "item.smart_farming.pizzaskecupem": "Pizza s kècupem",
       "item.smart_farming.pizzass": "Pizzass"
     }
