@@ -1,0 +1,28 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "pizza_testo",
+    "customModelName": "Normal",
+    "name": "pizza tìsto",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "pizzza tìsto"
+    ],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 2,
+    "nutritionalValue": 5,
+    "saturation": 1.3,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

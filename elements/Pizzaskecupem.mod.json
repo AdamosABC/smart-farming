@@ -1,0 +1,28 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "pizza_testo_s_kecupem",
+    "customModelName": "Normal",
+    "name": "Pizza s kècupem",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "pizza s keèupem"
+    ],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 2,
+    "nutritionalValue": 6,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": true,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

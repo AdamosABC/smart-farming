@@ -27,6 +27,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rohlikrecept"
+    },
+    {
+      "name": "Pizza1",
+      "type": "food",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pizza_1"
+    },
+    {
+      "name": "Pizzaskecupem",
+      "type": "food",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pizzaskecupem"
+    },
+    {
+      "name": "PizzaL",
+      "type": "food",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pizza_l"
+    },
+    {
+      "name": "Pizzass",
+      "type": "food",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pizzass"
     }
   ],
   "variable_elements": [],
@@ -34,7 +70,11 @@
   "language_map": {
     "en_us": {
       "item.smart_farming.test": "Test",
-      "item.smart_farming.rohlik": "Rohlik"
+      "item.smart_farming.rohlik": "Rohlik",
+      "item.smart_farming.pizza_l": "Pizza L",
+      "item.smart_farming.pizza_1": "pizza tìsto",
+      "item.smart_farming.pizzaskecupem": "Pizza s kècupem",
+      "item.smart_farming.pizzass": "Pizzass"
     }
   },
   "foldersRoot": {
