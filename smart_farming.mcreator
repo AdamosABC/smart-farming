@@ -45,6 +45,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pecnapizzurecpt"
+    },
+    {
+      "name": "Pecnapizzuguiu",
+      "type": "gui",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pecnapizzuguiu"
     }
   ],
   "variable_elements": [],
