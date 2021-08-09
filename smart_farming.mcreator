@@ -27,6 +27,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rohlikrecept"
+    },
+    {
+      "name": "PecnaPizzu",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pecna_pizzu"
+    },
+    {
+      "name": "Pecnapizzurecpt",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pecnapizzurecpt"
     }
   ],
   "variable_elements": [],
@@ -34,7 +52,8 @@
   "language_map": {
     "en_us": {
       "item.smart_farming.test": "Test",
-      "item.smart_farming.rohlik": "Rohlik"
+      "item.smart_farming.rohlik": "Rohlik",
+      "block.smart_farming.pecna_pizzu": "Pecna Pizzu"
     }
   },
   "foldersRoot": {
