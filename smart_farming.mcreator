@@ -29,6 +29,42 @@
       "registry_name": "rohlikrecept"
     },
     {
+      "name": "PizzaL",
+      "type": "food",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pizza_l"
+    },
+    {
+      "name": "Pezzatesto",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pezzatesto"
+    },
+    {
+      "name": "Pizzahj",
+      "type": "food",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pizzahj"
+    },
+    {
+      "name": "Pizzass",
+      "type": "food",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pizzass"
+    },
+    {
       "name": "Pizza1",
       "type": "food",
       "sortid": 4,
@@ -47,40 +83,22 @@
       "registry_name": "pizzaskecupem"
     },
     {
-      "name": "PizzaL",
-      "type": "food",
-      "sortid": 6,
+      "name": "PecnaPizzu",
+      "type": "block",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pizza_l"
+      "registry_name": "pecna_pizzu"
     },
     {
-      "name": "Pizzass",
-      "type": "food",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "pizzass"
-    },
-    {
-      "name": "Pizzahj",
-      "type": "food",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "pizzahj"
-    },
-    {
-      "name": "Pezzatesto",
+      "name": "Pecnapizzurecpt",
       "type": "recipe",
-      "sortid": 9,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pezzatesto"
+      "registry_name": "pecnapizzurecpt"
     }
   ],
   "variable_elements": [],
@@ -88,12 +106,7 @@
   "language_map": {
     "en_us": {
       "item.smart_farming.test": "Test",
-      "item.smart_farming.rohlik": "Rohlik",
-      "item.smart_farming.pizza_l": "Pizza L",
-      "item.smart_farming.pizza_1": "pizza tìsto",
-      "item.smart_farming.pizzahj": "Pizzahj",
-      "item.smart_farming.pizzaskecupem": "Pizza s kècupem",
-      "item.smart_farming.pizzass": "Pizzass"
+      "item.smart_farming.rohlik": "Rohlik"
     }
   },
   "foldersRoot": {

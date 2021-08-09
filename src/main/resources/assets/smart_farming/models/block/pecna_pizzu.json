@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "smart_farming:blocks/pizzapec1",
+    "up": "smart_farming:blocks/pizzapec1",
+    "north": "smart_farming:blocks/pizzapecpredek",
+    "east": "smart_farming:blocks/pizzapec2",
+    "south": "smart_farming:blocks/pizzapec2",
+    "west": "smart_farming:blocks/pizzapec2",
+    "particle": "smart_farming:blocks/pizzapec1"
+  }
+}
