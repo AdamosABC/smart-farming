@@ -59,7 +59,7 @@
       "name": "Pizzass",
       "type": "food",
       "sortid": 7,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "pizzass"
@@ -77,7 +77,7 @@
       "name": "Pizzaskecupem",
       "type": "food",
       "sortid": 5,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "pizzaskecupem"
@@ -106,7 +106,8 @@
   "language_map": {
     "en_us": {
       "item.smart_farming.test": "Test",
-      "item.smart_farming.rohlik": "Rohlik"
+      "item.smart_farming.rohlik": "Rohlik",
+      "item.smart_farming.pizzaskecupem": "Pizza s kècupem"
     }
   },
   "foldersRoot": {
