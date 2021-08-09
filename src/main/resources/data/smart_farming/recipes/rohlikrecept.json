@@ -1,0 +1,23 @@
+{
+  "group": "smart_farming",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:wheat"
+    },
+    "2": {
+      "item": "minecraft:wheat"
+    },
+    "4": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "smart_farming:rohlik",
+    "count": 1
+  }
+}

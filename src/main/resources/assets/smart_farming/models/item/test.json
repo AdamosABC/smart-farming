@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "smart_farming:items/d91u2nn-9bbb7662-9748-43ff-aa46-174ccbebc107"
+  }
+}

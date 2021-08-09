@@ -1,0 +1,62 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Test",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test"
+    },
+    {
+      "name": "Rohlik",
+      "type": "food",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rohlik"
+    },
+    {
+      "name": "Rohlikrecept",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rohlikrecept"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.smart_farming.test": "Test",
+      "item.smart_farming.rohlik": "Rohlik"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "smart_farming",
+    "modName": "smart farming",
+    "version": "1.0.0",
+    "author": "Creator, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.smartfarming",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}
