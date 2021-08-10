@@ -1,24 +1,11 @@
 package net.mcreator.smartfarming.procedures;
 
-import net.minecraft.world.World;
-import net.minecraft.world.IWorld;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.state.Property;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Block;
-
-import net.mcreator.smartfarming.block.Superkytka2Block;
-import net.mcreator.smartfarming.SmartFarmingModElements;
-import net.mcreator.smartfarming.SmartFarmingMod;
-
-import java.util.Map;
-
 @SmartFarmingModElements.ModElement.Tag
 public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
+
 	public Kytkarust1Procedure(SmartFarmingModElements instance) {
 		super(instance, 30);
+
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -42,10 +29,12 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 				SmartFarmingMod.LOGGER.warn("Failed to load dependency world for procedure Kytkarust1!");
 			return;
 		}
+
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
+
 		double randomChance = 0;
 		if ((!(world.isRemote()))) {
 			if ((!((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == Blocks.FARMLAND.getDefaultState()
@@ -53,6 +42,7 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 				if (world instanceof World) {
 					Block.spawnDrops(world.getBlockState(new BlockPos((int) x, (int) y, (int) z)), (World) world,
 							new BlockPos((int) (x + 0.5), (int) (y + 0.5), (int) (z + 0.5)));
+
 					world.destroyBlock(new BlockPos((int) x, (int) y, (int) z), false);
 				}
 			} else {
@@ -69,7 +59,9 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 						{
 							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 							BlockState _bs = Superkytka2Block.block.getDefaultState();
+
 							BlockState _bso = world.getBlockState(_bp);
+
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());
 								if (_property != null && _bs.get(_property) != null)
@@ -78,7 +70,9 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 									} catch (Exception e) {
 									}
 							}
+
 							world.setBlockState(_bp, _bs, 3);
+
 						}
 					} else {
 						if (!world.isRemote()) {
@@ -94,6 +88,7 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 										return -1;
 									}
 								}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "modidAttemptsMade")) + 1));
+
 							if (world instanceof World)
 								((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 						}
@@ -110,7 +105,9 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 						{
 							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 							BlockState _bs = Superkytka2Block.block.getDefaultState();
+
 							BlockState _bso = world.getBlockState(_bp);
+
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());
 								if (_property != null && _bs.get(_property) != null)
@@ -119,7 +116,9 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 									} catch (Exception e) {
 									}
 							}
+
 							world.setBlockState(_bp, _bs, 3);
+
 						}
 					} else {
 						if (!world.isRemote()) {
@@ -135,6 +134,7 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 										return -1;
 									}
 								}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "modidAttemptsMade")) + 1));
+
 							if (world instanceof World)
 								((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 						}
@@ -151,7 +151,9 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 						{
 							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 							BlockState _bs = Superkytka2Block.block.getDefaultState();
+
 							BlockState _bso = world.getBlockState(_bp);
+
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());
 								if (_property != null && _bs.get(_property) != null)
@@ -160,7 +162,9 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 									} catch (Exception e) {
 									}
 							}
+
 							world.setBlockState(_bp, _bs, 3);
+
 						}
 					} else {
 						if (!world.isRemote()) {
@@ -176,6 +180,7 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 										return -1;
 									}
 								}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "modidAttemptsMade")) + 1));
+
 							if (world instanceof World)
 								((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 						}
@@ -192,7 +197,9 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 						{
 							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 							BlockState _bs = Superkytka2Block.block.getDefaultState();
+
 							BlockState _bso = world.getBlockState(_bp);
+
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());
 								if (_property != null && _bs.get(_property) != null)
@@ -201,7 +208,9 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 									} catch (Exception e) {
 									}
 							}
+
 							world.setBlockState(_bp, _bs, 3);
+
 						}
 					} else {
 						if (!world.isRemote()) {
@@ -217,6 +226,7 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 										return -1;
 									}
 								}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "modidAttemptsMade")) + 1));
+
 							if (world instanceof World)
 								((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 						}
@@ -224,5 +234,7 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 				}
 			}
 		}
+
 	}
+
 }

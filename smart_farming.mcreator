@@ -466,13 +466,13 @@
       }
     },
     {
-      "name": "Seedsuperkytka",
-      "type": "item",
-      "sortid": 31,
+      "name": "Kytka1faze",
+      "type": "block",
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "seedsuperkytka"
+      "registry_name": "kytka_1faze"
     },
     {
       "name": "Kytkaznicit1",
@@ -504,13 +504,43 @@
       }
     },
     {
-      "name": "Kytka1faze",
+      "name": "Superkytka3",
       "type": "block",
-      "sortid": 30,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "kytka_1faze"
+      "registry_name": "superkytka_3"
+    },
+    {
+      "name": "Superkytkaplant",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "superkytkaplant",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Superkytka4",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "superkytka_4"
+    },
+    {
+      "name": "Seedsuperkytka",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seedsuperkytka"
     },
     {
       "name": "Superkytka2",
@@ -522,22 +552,13 @@
       "registry_name": "superkytka_2"
     },
     {
-      "name": "Superkytka3",
+      "name": "Superkytka7",
       "type": "block",
-      "sortid": 33,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "superkytka_3"
-    },
-    {
-      "name": "Superkytka4",
-      "type": "block",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "superkytka_4"
+      "registry_name": "superkytka_7"
     },
     {
       "name": "Superkytka5",
@@ -558,25 +579,22 @@
       "registry_name": "superkytka_6"
     },
     {
-      "name": "Superkytka7",
-      "type": "block",
-      "sortid": 37,
+      "name": "Lolp",
+      "type": "mob",
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "superkytka_7"
+      "registry_name": "lolp"
     },
     {
-      "name": "Superkytkaplant",
-      "type": "procedure",
-      "sortid": 38,
+      "name": "Vidle",
+      "type": "tool",
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "superkytkaplant",
-      "metadata": {
-        "dependencies": []
-      }
+      "registry_name": "vidle"
     }
   ],
   "variable_elements": [],
@@ -592,13 +610,9 @@
       "block.smart_farming.saltore": "Saltore",
       "effect.protlak": "Protlak",
       "item.minecraft.potion.effect.protlak": "Protlak",
-      "item.smart_farming.seedsuperkytka": "Seed super kytka",
       "item.smart_farming.pizzahj": "Pizzahj",
       "item.smart_farming.salat": "Salat",
       "item.smart_farming.sul": "Sul",
-      "block.smart_farming.superkytka_6": "Superkytka 6",
-      "block.smart_farming.superkytka_5": "Superkytka 5",
-      "block.smart_farming.superkytka_7": "Superkytka 7",
       "block.smart_farming.salatfaze_3": "Salatfaze 3",
       "block.smart_farming.salatfaze_1": "Salatfaze 1",
       "block.smart_farming.kytka_1faze": "Kytka 1faze",
@@ -607,11 +621,8 @@
       "item.smart_farming.saladseed": "Saladseed",
       "item.smart_farming.pizzaskecupem": "Pizza s kècupem",
       "block.smart_farming.pecna_pizzu": "Pecna Pizzu",
-      "block.smart_farming.superkytka_2": "Superkytka 2",
       "item.minecraft.lingering_potion.effect.protlak": "Lingering Protlak",
       "item.smart_farming.rajce": "Rajce",
-      "block.smart_farming.superkytka_4": "Superkytka 4",
-      "block.smart_farming.superkytka_3": "Superkytka 3",
       "item.smart_farming.pr": "Pr",
       "item.smart_farming.pizzass": "Pizzass",
       "item.minecraft.tipped_arrow.effect.protlak": "Arrow of Protlak"
