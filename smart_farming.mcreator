@@ -317,7 +317,6 @@
   "language_map": {
     "en_us": {
       "item.smart_farming.smallpiza": "Smallpiza",
-      "item.smart_farming.sul": "Sul",
       "item.smart_farming.pizza_l": "Pizza L",
       "block.smart_farming.salatfaze_3": "Salatfaze 3",
       "block.smart_farming.salatfaze_1": "Salatfaze 1",
@@ -330,7 +329,6 @@
       "item.smart_farming.test": "Test",
       "item.smart_farming.rohlik": "Rohlik",
       "block.smart_farming.pecna_pizzu": "Pecna Pizzu",
-      "block.smart_farming.saltore": "Saltore",
       "effect.protlak": "Protlak",
       "item.minecraft.lingering_potion.effect.protlak": "Lingering Protlak",
       "item.minecraft.potion.effect.protlak": "Protlak",
