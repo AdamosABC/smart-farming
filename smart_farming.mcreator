@@ -348,6 +348,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "Vidle",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vidle"
     }
   ],
   "variable_elements": [],
@@ -375,6 +384,7 @@
       "block.smart_farming.pecna_pizzu": "Pecna Pizzu",
       "item.minecraft.lingering_potion.effect.protlak": "Lingering Protlak",
       "item.smart_farming.rajce": "Rajce",
+      "item.smart_farming.vidle": "Vidle",
       "item.smart_farming.pr": "Pr",
       "item.smart_farming.pizzass": "Pizzass",
       "item.minecraft.tipped_arrow.effect.protlak": "Arrow of Protlak"
