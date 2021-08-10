@@ -47,6 +47,69 @@
       "registry_name": "pecnapizzurecpt"
     },
     {
+      "name": "PizzaL",
+      "type": "food",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pizza_l"
+    },
+    {
+      "name": "Pezzatesto",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pezzatesto"
+    },
+    {
+      "name": "Pizzahj",
+      "type": "food",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pizzahj"
+    },
+    {
+      "name": "Pizzass",
+      "type": "food",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pizzass"
+    },
+    {
+      "name": "Smallpiza",
+      "type": "food",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smallpiza"
+    },
+    {
+      "name": "Pizza1",
+      "type": "food",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pizza_1"
+    },
+    {
+      "name": "Pizzaskecupem",
+      "type": "food",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pizzaskecupem"
+    },
+    {
       "name": "Pecnapizzuguiu",
       "type": "gui",
       "sortid": 6,
@@ -61,8 +124,7 @@
   "language_map": {
     "en_us": {
       "item.smart_farming.test": "Test",
-      "item.smart_farming.rohlik": "Rohlik",
-      "block.smart_farming.pecna_pizzu": "Pecna Pizzu"
+      "item.smart_farming.rohlik": "Rohlik"
     }
   },
   "foldersRoot": {

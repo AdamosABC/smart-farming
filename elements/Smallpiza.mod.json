@@ -1,0 +1,28 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "mala_pizza",
+    "customModelName": "Normal",
+    "name": "Smallpiza",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "prostì malá pizza"
+    ],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 18,
+    "nutritionalValue": 2,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}
