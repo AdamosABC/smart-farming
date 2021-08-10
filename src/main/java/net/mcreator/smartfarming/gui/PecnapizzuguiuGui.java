@@ -113,9 +113,9 @@ public class PecnapizzuguiuGui extends SmartFarmingModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 37, 27) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 37, 21) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 36, 56) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 37, 56) {
 			}));
 			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 88, 40) {
 				@Override
