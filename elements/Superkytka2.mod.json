@@ -101,6 +101,15 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "Superkytkarust2"
+    },
+    "onDestroyedByPlayer": {
+      "name": "Kytkaznicit1"
+    },
+    "onDestroyedByExplosion": {
+      "name": "Kytkaznicit1"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

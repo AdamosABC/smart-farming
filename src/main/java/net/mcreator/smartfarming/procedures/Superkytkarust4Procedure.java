@@ -9,38 +9,37 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.smartfarming.block.Superkytka4Block;
-import net.mcreator.smartfarming.block.Superkytka2Block;
+import net.mcreator.smartfarming.block.Superkytka5Block;
 import net.mcreator.smartfarming.SmartFarmingModElements;
 import net.mcreator.smartfarming.SmartFarmingMod;
 
 import java.util.Map;
 
 @SmartFarmingModElements.ModElement.Tag
-public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
-	public Kytkarust1Procedure(SmartFarmingModElements instance) {
-		super(instance, 30);
+public class Superkytkarust4Procedure extends SmartFarmingModElements.ModElement {
+	public Superkytkarust4Procedure(SmartFarmingModElements instance) {
+		super(instance, 41);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				SmartFarmingMod.LOGGER.warn("Failed to load dependency x for procedure Kytkarust1!");
+				SmartFarmingMod.LOGGER.warn("Failed to load dependency x for procedure Superkytkarust4!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				SmartFarmingMod.LOGGER.warn("Failed to load dependency y for procedure Kytkarust1!");
+				SmartFarmingMod.LOGGER.warn("Failed to load dependency y for procedure Superkytkarust4!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				SmartFarmingMod.LOGGER.warn("Failed to load dependency z for procedure Kytkarust1!");
+				SmartFarmingMod.LOGGER.warn("Failed to load dependency z for procedure Superkytkarust4!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				SmartFarmingMod.LOGGER.warn("Failed to load dependency world for procedure Kytkarust1!");
+				SmartFarmingMod.LOGGER.warn("Failed to load dependency world for procedure Superkytkarust4!");
 			return;
 		}
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
@@ -69,7 +68,7 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "modidAttemptsMade")) == 7))) {
 						{
 							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-							BlockState _bs = Superkytka4Block.block.getDefaultState();
+							BlockState _bs = Superkytka5Block.block.getDefaultState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());
@@ -110,7 +109,7 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "modidAttemptsMade")) == 7))) {
 						{
 							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-							BlockState _bs = Superkytka2Block.block.getDefaultState();
+							BlockState _bs = Superkytka5Block.block.getDefaultState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());
@@ -151,7 +150,7 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "modidAttemptsMade")) == 7))) {
 						{
 							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-							BlockState _bs = Superkytka2Block.block.getDefaultState();
+							BlockState _bs = Superkytka5Block.block.getDefaultState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());
@@ -192,7 +191,7 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "modidAttemptsMade")) == 7))) {
 						{
 							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-							BlockState _bs = Superkytka2Block.block.getDefaultState();
+							BlockState _bs = Superkytka5Block.block.getDefaultState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());

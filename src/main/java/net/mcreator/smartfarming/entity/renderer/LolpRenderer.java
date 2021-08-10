@@ -1,10 +1,31 @@
 package net.mcreator.smartfarming.entity.renderer;
 
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.entity.Entity;
+import net.minecraft.client.renderer.texture.OverlayTexture;
+import net.minecraft.client.renderer.entity.model.EntityModel;
+import net.minecraft.client.renderer.entity.model.BipedModel;
+import net.minecraft.client.renderer.entity.layers.LayerRenderer;
+import net.minecraft.client.renderer.entity.layers.BipedArmorLayer;
+import net.minecraft.client.renderer.entity.IEntityRenderer;
+import net.minecraft.client.renderer.entity.BipedRenderer;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.IRenderTypeBuffer;
+
+import net.mcreator.smartfarming.entity.LolpEntity;
+
+import com.mojang.blaze3d.vertex.IVertexBuilder;
+import com.mojang.blaze3d.matrix.MatrixStack;
+
 @OnlyIn(Dist.CLIENT)
 public class LolpRenderer {
-
 	public static class ModelRegisterHandler {
-
 		@SubscribeEvent
 		@OnlyIn(Dist.CLIENT)
 		public void registerModels(ModelRegistryEvent event) {
@@ -19,13 +40,11 @@ public class LolpRenderer {
 				customRender.addLayer(new GlowingLayer<>(customRender));
 				return customRender;
 			});
-
 		}
 	}
 
 	@OnlyIn(Dist.CLIENT)
 	private static class GlowingLayer<T extends Entity, M extends EntityModel<T>> extends LayerRenderer<T, M> {
-
 		public GlowingLayer(IEntityRenderer<T, M> er) {
 			super(er);
 		}
@@ -35,7 +54,5 @@ public class LolpRenderer {
 			IVertexBuilder ivertexbuilder = bufferIn.getBuffer(RenderType.getEyes(new ResourceLocation("smart_farming:textures/char.png")));
 			this.getEntityModel().render(matrixStackIn, ivertexbuilder, 15728640, OverlayTexture.NO_OVERLAY, 1, 1, 1, 1);
 		}
-
 	}
-
 }
