@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "smart_farming:blocks/custom_crop_stage_2"
+  }
+}
