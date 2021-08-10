@@ -15,7 +15,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
@@ -25,8 +24,8 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.smartfarming.item.SalatItem;
 import net.mcreator.smartfarming.item.SaladseedItem;
-import net.mcreator.smartfarming.item.RajceItem;
 import net.mcreator.smartfarming.SmartFarmingModElements;
 
 import java.util.List;
@@ -69,11 +68,6 @@ public class Salatfaze3Block extends SmartFarmingModElements.ModElement {
 		}
 
 		@Override
-		public boolean isReplaceable(BlockState state, BlockItemUseContext context) {
-			return context.getItem().getItem() != this.asItem();
-		}
-
-		@Override
 		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
 			return new ItemStack(SaladseedItem.block, (int) (1));
 		}
@@ -83,7 +77,7 @@ public class Salatfaze3Block extends SmartFarmingModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(RajceItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(SalatItem.block, (int) (1)));
 		}
 	}
 }

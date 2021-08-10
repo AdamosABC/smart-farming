@@ -43,7 +43,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Rajce"
+      "value": "CUSTOM:Salat"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -56,7 +56,7 @@
     },
     "tickRate": 10,
     "tickRandomly": false,
-    "isReplaceable": true,
+    "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": "CUSTOM:Saladseed"
