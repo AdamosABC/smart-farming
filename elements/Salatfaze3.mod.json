@@ -34,12 +34,12 @@
     ],
     "name": "Salatfaze 3",
     "specialInfo": [],
-    "hardness": 0.0,
+    "hardness": 1.0,
     "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "DECORATIONS"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -101,13 +101,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "Sklizensaltu"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
+    "blocksToReplace": [],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

@@ -244,6 +244,74 @@
       "registry_name": "saladseed"
     },
     {
+      "name": "Salatfaze1",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salatfaze_1"
+    },
+    {
+      "name": "Salatfaze2",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salatfaze_2"
+    },
+    {
+      "name": "Salatfaze3",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salatfaze_3"
+    },
+    {
+      "name": "Seedplanting",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seedplanting",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
       "name": "Saladbreak",
       "type": "procedure",
       "sortid": 25,
@@ -273,33 +341,6 @@
       }
     },
     {
-      "name": "Salatfaze3",
-      "type": "block",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "salatfaze_3"
-    },
-    {
-      "name": "Salatfaze1",
-      "type": "block",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "salatfaze_1"
-    },
-    {
-      "name": "Salatfaze2",
-      "type": "block",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "salatfaze_2"
-    },
-    {
       "name": "Salat",
       "type": "food",
       "sortid": 26,
@@ -309,27 +350,73 @@
       "registry_name": "salat"
     },
     {
-      "name": "Seedplanting",
+      "name": "Rust",
       "type": "procedure",
-      "sortid": 22,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "seedplanting",
+      "registry_name": "rust",
       "metadata": {
         "dependencies": [
           {
-            "name": "direction",
-            "type": "direction"
+            "name": "x",
+            "type": "number"
           },
           {
-            "name": "entity",
-            "type": "entity"
+            "name": "y",
+            "type": "number"
           },
           {
-            "name": "itemstack",
-            "type": "itemstack"
+            "name": "z",
+            "type": "number"
           },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sklizensaltu",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sklizensaltu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rust2",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rust_2",
+      "metadata": {
+        "dependencies": [
           {
             "name": "x",
             "type": "number"
