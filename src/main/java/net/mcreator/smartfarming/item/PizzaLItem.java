@@ -1,27 +1,12 @@
 
 package net.mcreator.smartfarming.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.item.UseAction;
-import net.minecraft.item.Rarity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.Food;
-import net.minecraft.client.util.ITooltipFlag;
-
-import net.mcreator.smartfarming.SmartFarmingModElements;
-
-import java.util.List;
-
 @SmartFarmingModElements.ModElement.Tag
 public class PizzaLItem extends SmartFarmingModElements.ModElement {
+
 	@ObjectHolder("smart_farming:pizza_l")
 	public static final Item block = null;
+
 	public PizzaLItem(SmartFarmingModElements instance) {
 		super(instance, 6);
 	}
@@ -30,10 +15,14 @@ public class PizzaLItem extends SmartFarmingModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new FoodItemCustom());
 	}
+
 	public static class FoodItemCustom extends Item {
+
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(2).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(7).saturation(0.3f).build()));
+					.food((new Food.Builder()).hunger(7).saturation(0.3f)
+
+							.build()));
 			setRegistryName("pizza_l");
 		}
 
@@ -47,5 +36,7 @@ public class PizzaLItem extends SmartFarmingModElements.ModElement {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("pizza se s\u00FDrem"));
 		}
+
 	}
+
 }
