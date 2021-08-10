@@ -32,7 +32,7 @@
       "name": "PecnaPizzu",
       "type": "block",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "pecna_pizzu"
@@ -50,7 +50,7 @@
       "name": "PizzaL",
       "type": "food",
       "sortid": 6,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "pizza_l"
@@ -68,7 +68,7 @@
       "name": "Pizzahj",
       "type": "food",
       "sortid": 8,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "pizzahj"
@@ -95,7 +95,7 @@
       "name": "Pizza1",
       "type": "food",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "pizza_1"
@@ -104,7 +104,7 @@
       "name": "Pizzaskecupem",
       "type": "food",
       "sortid": 5,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "pizzaskecupem"
@@ -134,6 +134,78 @@
           }
         ]
       }
+    },
+    {
+      "name": "Protlak",
+      "type": "potion",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "protlak"
+    },
+    {
+      "name": "Pr",
+      "type": "food",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pr"
+    },
+    {
+      "name": "Chesse",
+      "type": "food",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chesse"
+    },
+    {
+      "name": "Pizzasesyremr",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pizzasesyremr"
+    },
+    {
+      "name": "Pizzasesalamemr",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pizzasesalamemr"
+    },
+    {
+      "name": "Rajce",
+      "type": "food",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rajce"
+    },
+    {
+      "name": "Receptnaprotlak",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "receptnaprotlak"
+    },
+    {
+      "name": "Pizzaskecupemr",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pizzaskecupemr"
     }
   ],
   "variable_elements": [],

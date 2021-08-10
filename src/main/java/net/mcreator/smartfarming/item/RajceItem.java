@@ -2,13 +2,13 @@
 package net.mcreator.smartfarming.item;
 
 @SmartFarmingModElements.ModElement.Tag
-public class PizzaLItem extends SmartFarmingModElements.ModElement {
+public class RajceItem extends SmartFarmingModElements.ModElement {
 
-	@ObjectHolder("smart_farming:pizza_l")
+	@ObjectHolder("smart_farming:rajce")
 	public static final Item block = null;
 
-	public PizzaLItem(SmartFarmingModElements instance) {
-		super(instance, 6);
+	public RajceItem(SmartFarmingModElements instance) {
+		super(instance, 12);
 	}
 
 	@Override
@@ -19,11 +19,11 @@ public class PizzaLItem extends SmartFarmingModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(2).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(7).saturation(0.3f)
+			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.COMMON)
+					.food((new Food.Builder()).hunger(1).saturation(0.3f)
 
 							.build()));
-			setRegistryName("pizza_l");
+			setRegistryName("rajce");
 		}
 
 		@Override
@@ -34,7 +34,7 @@ public class PizzaLItem extends SmartFarmingModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("pizza se s\u00FDrem"));
+			list.add(new StringTextComponent("raj\u010De"));
 		}
 
 	}

@@ -1,0 +1,28 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "glass_bottle_je2_be2",
+    "customModelName": "Normal",
+    "name": "Pr",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "prostì protlak"
+    ],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 4,
+    "nutritionalValue": 3,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}
