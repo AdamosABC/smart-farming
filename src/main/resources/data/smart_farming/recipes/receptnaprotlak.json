@@ -1,18 +1,14 @@
 {
   "group": "na_protlak",
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "0",
-    "1"
-  ],
-  "key": {
-    "0": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "smart_farming:rajce"
     },
-    "1": {
+    {
       "item": "minecraft:glass_bottle"
     }
-  },
+  ],
   "result": {
     "item": "smart_farming:pr",
     "count": 1
