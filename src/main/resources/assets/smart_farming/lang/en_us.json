@@ -1,4 +1,19 @@
 {
+  "item.smart_farming.smallpiza": "Smallpiza",
+  "item.smart_farming.pizza_l": "Pizza L",
+  "item.minecraft.splash_potion.effect.protlak": "Splash Protlak",
+  "item.smart_farming.pizza_1": "pizza těsto",
+  "item.smart_farming.pizzaskecupem": "Pizza s kčcupem",
+  "item.smart_farming.chesse": "Chesse",
   "item.smart_farming.test": "Test",
-  "item.smart_farming.rohlik": "Rohlik"
+  "item.smart_farming.rohlik": "Rohlik",
+  "block.smart_farming.pecna_pizzu": "Pecna Pizzu",
+  "effect.protlak": "Protlak",
+  "item.minecraft.lingering_potion.effect.protlak": "Lingering Protlak",
+  "item.minecraft.potion.effect.protlak": "Protlak",
+  "item.smart_farming.rajce": "Rajce",
+  "item.smart_farming.pizzahj": "Pizzahj",
+  "item.smart_farming.pr": "Pr",
+  "item.smart_farming.pizzass": "Pizzass",
+  "item.minecraft.tipped_arrow.effect.protlak": "Arrow of Protlak"
 }

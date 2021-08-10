@@ -1,0 +1,20 @@
+{
+  "group": "pizzaskecupem",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "smart_farming:pr"
+    },
+    "1": {
+      "item": "smart_farming:pizza_1"
+    }
+  },
+  "result": {
+    "item": "smart_farming:pizzaskecupem",
+    "count": 1
+  }
+}
