@@ -33,22 +33,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 162,
-          "y": 57
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 1,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #1",
-          "x": 162,
-          "y": 92
+          "x": 151,
+          "y": 75
         }
       },
       {
@@ -58,8 +44,22 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #2",
-          "x": 213,
-          "y": 76
+          "x": 244,
+          "y": 75
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Vypéct",
+          "onClick": {
+            "name": "Pecenipizzy"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Vypéct",
+          "x": 178,
+          "y": 84
         }
       }
     ]

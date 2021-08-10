@@ -32,7 +32,7 @@
       "name": "PecnaPizzu",
       "type": "block",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "pecna_pizzu"
@@ -50,7 +50,7 @@
       "name": "PizzaL",
       "type": "food",
       "sortid": 6,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "pizza_l"
@@ -68,7 +68,7 @@
       "name": "Pizzahj",
       "type": "food",
       "sortid": 8,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "pizzahj"
@@ -95,7 +95,7 @@
       "name": "Pizza1",
       "type": "food",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "pizza_1"
@@ -104,7 +104,7 @@
       "name": "Pizzaskecupem",
       "type": "food",
       "sortid": 5,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "pizzaskecupem"
@@ -117,6 +117,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pecnapizzuguiu"
+    },
+    {
+      "name": "Pecenipizzy",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pecenipizzy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
