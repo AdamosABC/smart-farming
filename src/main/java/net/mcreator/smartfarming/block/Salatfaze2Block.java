@@ -30,7 +30,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.smartfarming.procedures.SaladbreakProcedure;
-import net.mcreator.smartfarming.procedures.RustProcedure;
+import net.mcreator.smartfarming.procedures.Rust2Procedure;
 import net.mcreator.smartfarming.item.SaladseedItem;
 import net.mcreator.smartfarming.SmartFarmingModElements;
 
@@ -116,7 +116,7 @@ public class Salatfaze2Block extends SmartFarmingModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				RustProcedure.executeProcedure($_dependencies);
+				Rust2Procedure.executeProcedure($_dependencies);
 			}
 			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 10);
 		}
