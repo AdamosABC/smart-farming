@@ -32,7 +32,7 @@
       "name": "PecnaPizzu",
       "type": "block",
       "sortid": 4,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "pecna_pizzu"
@@ -50,7 +50,7 @@
       "name": "PizzaL",
       "type": "food",
       "sortid": 6,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "pizza_l"
@@ -68,7 +68,7 @@
       "name": "Pizzahj",
       "type": "food",
       "sortid": 8,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "pizzahj"
@@ -95,7 +95,7 @@
       "name": "Pizza1",
       "type": "food",
       "sortid": 4,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "pizza_1"
@@ -104,7 +104,7 @@
       "name": "Pizzaskecupem",
       "type": "food",
       "sortid": 5,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "pizzaskecupem"
@@ -224,6 +224,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sul"
+    },
+    {
+      "name": "Saltore",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saltore"
     }
   ],
   "variable_elements": [],
@@ -231,6 +240,7 @@
   "language_map": {
     "en_us": {
       "item.smart_farming.smallpiza": "Smallpiza",
+      "item.smart_farming.sul": "Sul",
       "item.smart_farming.pizza_l": "Pizza L",
       "item.minecraft.splash_potion.effect.protlak": "Splash Protlak",
       "item.smart_farming.pizza_1": "pizza tìsto",
@@ -239,6 +249,7 @@
       "item.smart_farming.test": "Test",
       "item.smart_farming.rohlik": "Rohlik",
       "block.smart_farming.pecna_pizzu": "Pecna Pizzu",
+      "block.smart_farming.saltore": "Saltore",
       "effect.protlak": "Protlak",
       "item.minecraft.lingering_potion.effect.protlak": "Lingering Protlak",
       "item.minecraft.potion.effect.protlak": "Protlak",
