@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "smart_farming:blocks/faze_2"
+    "layer0": "smart_farming:blocks/fare_1.2"
   }
 }
