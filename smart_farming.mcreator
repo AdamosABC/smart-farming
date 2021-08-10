@@ -32,7 +32,7 @@
       "name": "PizzaL",
       "type": "food",
       "sortid": 6,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "pizza_l"
@@ -50,7 +50,7 @@
       "name": "Pizzahj",
       "type": "food",
       "sortid": 8,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "pizzahj"
@@ -59,7 +59,7 @@
       "name": "Pizzass",
       "type": "food",
       "sortid": 7,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "pizzass"
@@ -68,7 +68,7 @@
       "name": "Pizza1",
       "type": "food",
       "sortid": 4,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "pizza_1"
@@ -86,7 +86,7 @@
       "name": "PecnaPizzu",
       "type": "block",
       "sortid": 4,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "pecna_pizzu"
@@ -99,6 +99,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pecnapizzurecpt"
+    },
+    {
+      "name": "Smallpiza",
+      "type": "food",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smallpiza"
     }
   ],
   "variable_elements": [],
@@ -107,6 +116,7 @@
     "en_us": {
       "item.smart_farming.test": "Test",
       "item.smart_farming.rohlik": "Rohlik",
+      "item.smart_farming.smallpiza": "Smallpiza",
       "item.smart_farming.pizzaskecupem": "Pizza s kècupem"
     }
   },
