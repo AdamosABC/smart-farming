@@ -16,7 +16,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.smartfarming.block.Salatfaze2Block;
+import net.mcreator.smartfarming.block.Salatfaze1Block;
 import net.mcreator.smartfarming.SmartFarmingModElements;
 import net.mcreator.smartfarming.SmartFarmingMod;
 
@@ -114,7 +114,7 @@ public class SeedplantingProcedure extends SmartFarmingModElements.ModElement {
 				}
 				{
 					BlockPos _bp = new BlockPos((int) x, (int) (y + 1), (int) z);
-					BlockState _bs = Salatfaze2Block.block.getDefaultState();
+					BlockState _bs = Salatfaze1Block.block.getDefaultState();
 					world.setBlockState(_bp, _bs, 3);
 				}
 			}
