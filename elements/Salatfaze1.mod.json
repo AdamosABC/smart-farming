@@ -20,22 +20,22 @@
     "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
-    "disableOffset": false,
+    "disableOffset": true,
     "boundingBoxes": [
       {
         "mx": 0.0,
         "my": 0.001,
         "mz": 0.0,
-        "Mx": 16.0,
-        "My": 16.0,
-        "Mz": 16.0,
+        "Mx": 1.0,
+        "My": 1.0,
+        "Mz": 1.0,
         "subtract": false
       }
     ],
     "name": "Salatfaze 1",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": -1.0,
+    "resistance": 1.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -56,7 +56,7 @@
     },
     "tickRate": 10,
     "tickRandomly": false,
-    "isReplaceable": false,
+    "isReplaceable": true,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
@@ -70,7 +70,7 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "soundOnStep": {
       "value": "GROUND"
     },
