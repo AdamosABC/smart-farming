@@ -119,6 +119,23 @@
       "registry_name": "pecnapizzuguiu"
     },
     {
+      "name": "Pecenipizzy",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pecenipizzy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
       "name": "Protlak",
       "type": "potion",
       "sortid": 11,
@@ -191,23 +208,6 @@
       "registry_name": "pizzaskecupemr"
     },
     {
-      "name": "Pecenipizzy",
-      "type": "procedure",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "pecenipizzy",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "Sulre",
       "type": "recipe",
       "sortid": 19,
@@ -224,6 +224,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sul"
+    },
+    {
+      "name": "Saltore",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saltore"
     }
   ],
   "variable_elements": [],
@@ -240,10 +249,11 @@
       "item.smart_farming.test": "Test",
       "item.smart_farming.rohlik": "Rohlik",
       "block.smart_farming.pecna_pizzu": "Pecna Pizzu",
+      "block.smart_farming.saltore": "Saltore",
       "effect.protlak": "Protlak",
       "item.minecraft.lingering_potion.effect.protlak": "Lingering Protlak",
-      "item.smart_farming.rajce": "Rajce",
       "item.minecraft.potion.effect.protlak": "Protlak",
+      "item.smart_farming.rajce": "Rajce",
       "item.smart_farming.pizzahj": "Pizzahj",
       "item.smart_farming.pr": "Pr",
       "item.smart_farming.pizzass": "Pizzass",
