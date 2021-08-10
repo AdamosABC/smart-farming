@@ -233,6 +233,83 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "saltore"
+    },
+    {
+      "name": "Saladseed",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saladseed"
+    },
+    {
+      "name": "Salatfaze1",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salatfaze_1"
+    },
+    {
+      "name": "Salatfaze2",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salatfaze_2"
+    },
+    {
+      "name": "Salatfaze3",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salatfaze_3"
+    },
+    {
+      "name": "Seedplanting",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seedplanting",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -242,8 +319,12 @@
       "item.smart_farming.smallpiza": "Smallpiza",
       "item.smart_farming.sul": "Sul",
       "item.smart_farming.pizza_l": "Pizza L",
+      "block.smart_farming.salatfaze_3": "Salatfaze 3",
+      "block.smart_farming.salatfaze_1": "Salatfaze 1",
+      "block.smart_farming.salatfaze_2": "Salatfaze 2",
       "item.minecraft.splash_potion.effect.protlak": "Splash Protlak",
       "item.smart_farming.pizza_1": "pizza tìsto",
+      "item.smart_farming.saladseed": "Saladseed",
       "item.smart_farming.pizzaskecupem": "Pizza s kècupem",
       "item.smart_farming.chesse": "Chesse",
       "item.smart_farming.test": "Test",
