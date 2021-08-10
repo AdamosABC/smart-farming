@@ -128,15 +128,6 @@
       "registry_name": "protlak"
     },
     {
-      "name": "Rajce",
-      "type": "food",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "rajce"
-    },
-    {
       "name": "Pr",
       "type": "food",
       "sortid": 13,
@@ -146,15 +137,6 @@
       "registry_name": "pr"
     },
     {
-      "name": "Receptnaprotlak",
-      "type": "recipe",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "receptnaprotlak"
-    },
-    {
       "name": "Chesse",
       "type": "food",
       "sortid": 14,
@@ -162,15 +144,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "chesse"
-    },
-    {
-      "name": "Pizzaskecupemr",
-      "type": "recipe",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "pizzaskecupemr"
     },
     {
       "name": "Pizzasesyremr",
@@ -189,29 +162,65 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pizzasesalamemr"
+    },
+    {
+      "name": "Rajce",
+      "type": "food",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rajce"
+    },
+    {
+      "name": "Receptnaprotlak",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "receptnaprotlak"
+    },
+    {
+      "name": "Pizzaskecupemr",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pizzaskecupemr"
+    },
+    {
+      "name": "Pecenipizzy",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pecenipizzy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.smart_farming.smallpiza": "Smallpiza",
-      "item.smart_farming.pizza_l": "Pizza L",
-      "item.minecraft.splash_potion.effect.protlak": "Splash Protlak",
-      "item.smart_farming.pizza_1": "pizza tìsto",
-      "item.smart_farming.pizzaskecupem": "Pizza s kècupem",
-      "item.smart_farming.chesse": "Chesse",
       "item.smart_farming.test": "Test",
       "item.smart_farming.rohlik": "Rohlik",
+      "item.smart_farming.smallpiza": "Smallpiza",
       "block.smart_farming.pecna_pizzu": "Pecna Pizzu",
-      "effect.protlak": "Protlak",
-      "item.minecraft.lingering_potion.effect.protlak": "Lingering Protlak",
-      "item.minecraft.potion.effect.protlak": "Protlak",
-      "item.smart_farming.rajce": "Rajce",
+      "item.smart_farming.pizza_l": "Pizza L",
+      "item.smart_farming.pizza_1": "pizza tìsto",
       "item.smart_farming.pizzahj": "Pizzahj",
-      "item.smart_farming.pr": "Pr",
-      "item.smart_farming.pizzass": "Pizzass",
-      "item.minecraft.tipped_arrow.effect.protlak": "Arrow of Protlak"
+      "item.smart_farming.pizzaskecupem": "Pizza s kècupem",
+      "item.smart_farming.pizzass": "Pizzass"
     }
   },
   "foldersRoot": {

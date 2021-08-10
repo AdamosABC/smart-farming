@@ -1,25 +1,15 @@
 
 package net.mcreator.smartfarming.gui;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.World;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.entity.player.PlayerInventory;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.client.gui.screen.inventory.ContainerScreen;
-import net.minecraft.client.Minecraft;
-
-import com.mojang.blaze3d.systems.RenderSystem;
-import com.mojang.blaze3d.matrix.MatrixStack;
+import net.mcreator.smartfarming.SmartFarmingMod;
 
 @OnlyIn(Dist.CLIENT)
 public class PecnapizzuguiuGuiWindow extends ContainerScreen<PecnapizzuguiuGui.GuiContainerMod> {
+
 	private World world;
 	private int x, y, z;
 	private PlayerEntity entity;
+
 	public PecnapizzuguiuGuiWindow(PecnapizzuguiuGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
 		super(container, inventory, text);
 		this.world = container.world;
@@ -30,12 +20,15 @@ public class PecnapizzuguiuGuiWindow extends ContainerScreen<PecnapizzuguiuGui.G
 		this.xSize = 176;
 		this.ySize = 166;
 	}
+
 	private static final ResourceLocation texture = new ResourceLocation("smart_farming:textures/pecnapizzuguiu.png");
+
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
 		this.renderHoveredTooltip(ms, mouseX, mouseY);
+
 	}
 
 	@Override
@@ -43,10 +36,12 @@ public class PecnapizzuguiuGuiWindow extends ContainerScreen<PecnapizzuguiuGui.G
 		RenderSystem.color4f(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
+
 		Minecraft.getInstance().getTextureManager().bindTexture(texture);
 		int k = (this.width - this.xSize) / 2;
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -56,6 +51,7 @@ public class PecnapizzuguiuGuiWindow extends ContainerScreen<PecnapizzuguiuGui.G
 			this.minecraft.player.closeScreen();
 			return true;
 		}
+
 		return super.keyPressed(key, b, c);
 	}
 
@@ -79,5 +75,13 @@ public class PecnapizzuguiuGuiWindow extends ContainerScreen<PecnapizzuguiuGui.G
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
+
+		this.addButton(new Button(this.guiLeft + 52, this.guiTop + 47, 55, 20, new StringTextComponent("Vypéct"), e -> {
+			if (true) {
+				SmartFarmingMod.PACKET_HANDLER.sendToServer(new PecnapizzuguiuGui.ButtonPressedMessage(0, x, y, z));
+				PecnapizzuguiuGui.handleButtonAction(entity, 0, x, y, z);
+			}
+		}));
 	}
+
 }
