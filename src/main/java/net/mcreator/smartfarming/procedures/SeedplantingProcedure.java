@@ -1,11 +1,31 @@
 package net.mcreator.smartfarming.procedures;
 
+import net.minecraft.world.IWorld;
+import net.minecraft.world.GameType;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Hand;
+import net.minecraft.util.Direction;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+import net.minecraft.client.network.play.NetworkPlayerInfo;
+import net.minecraft.client.entity.player.AbstractClientPlayerEntity;
+import net.minecraft.client.Minecraft;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.smartfarming.block.Salatfaze2Block;
+import net.mcreator.smartfarming.SmartFarmingModElements;
+import net.mcreator.smartfarming.SmartFarmingMod;
+
+import java.util.Map;
+
 @SmartFarmingModElements.ModElement.Tag
 public class SeedplantingProcedure extends SmartFarmingModElements.ModElement {
-
 	public SeedplantingProcedure(SmartFarmingModElements instance) {
 		super(instance, 22);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -44,7 +64,6 @@ public class SeedplantingProcedure extends SmartFarmingModElements.ModElement {
 				SmartFarmingMod.LOGGER.warn("Failed to load dependency world for procedure Seedplanting!");
 			return;
 		}
-
 		Direction direction = (Direction) dependencies.get("direction");
 		Entity entity = (Entity) dependencies.get("entity");
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
@@ -52,7 +71,6 @@ public class SeedplantingProcedure extends SmartFarmingModElements.ModElement {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		if ((!(world.isRemote()))) {
 			if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem() == (itemstack)
 					.getItem())) {
@@ -97,13 +115,9 @@ public class SeedplantingProcedure extends SmartFarmingModElements.ModElement {
 				{
 					BlockPos _bp = new BlockPos((int) x, (int) (y + 1), (int) z);
 					BlockState _bs = Salatfaze2Block.block.getDefaultState();
-
 					world.setBlockState(_bp, _bs, 3);
-
 				}
 			}
 		}
-
 	}
-
 }
