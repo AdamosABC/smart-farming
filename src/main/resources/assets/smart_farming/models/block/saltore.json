@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "smart_farming:blocks/saltore1",
+    "up": "smart_farming:blocks/saltore1",
+    "north": "smart_farming:blocks/saltore1",
+    "east": "smart_farming:blocks/saltore1",
+    "south": "smart_farming:blocks/saltore1",
+    "west": "smart_farming:blocks/saltore1",
+    "particle": "smart_farming:blocks/saltore1"
+  }
+}
