@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "smart_farming:blocks/faze_3",
+    "particle": "smart_farming:blocks/faze_3"
+  }
+}

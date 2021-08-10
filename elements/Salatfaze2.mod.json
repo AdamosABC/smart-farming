@@ -2,64 +2,64 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "pizzapec1",
-    "textureTop": "pizzapec1",
-    "textureLeft": "pizzapec2",
-    "textureFront": "pizzapecpredek",
-    "textureRight": "pizzapec2",
-    "textureBack": "pizzapec2",
-    "renderType": 10,
-    "customModelName": "Normal",
-    "rotationMode": 2,
+    "texture": "faze_2",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 13,
+    "customModelName": "Crop model",
+    "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
-    "disableOffset": false,
+    "disableOffset": true,
     "boundingBoxes": [
       {
         "mx": 0.0,
-        "my": 0.0,
+        "my": 0.101,
         "mz": 0.0,
-        "Mx": 16.0,
-        "My": 16.0,
-        "Mz": 16.0,
+        "Mx": 1.0,
+        "My": 1.0,
+        "Mz": 1.0,
         "subtract": false
       }
     ],
-    "name": "Pecna Pizzu",
+    "name": "Salatfaze 2",
     "specialInfo": [],
-    "hardness": 3.5,
-    "resistance": 10.0,
+    "hardness": 1.0,
+    "resistance": 1.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Saladseed"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 255,
+    "lightOpacity": 0,
     "material": {
-      "value": "ROCK"
+      "value": "PLANTS"
     },
     "tickRate": 10,
     "tickRandomly": false,
-    "isReplaceable": false,
+    "isReplaceable": true,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:Saladseed"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -70,9 +70,9 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "PLANT"
     },
     "luminance": 0,
     "unbreakable": false,
@@ -84,9 +84,9 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "hasInventory": true,
-    "guiBoundTo": "Pecnapizzuguiu",
-    "openGUIOnRightClick": true,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
@@ -98,13 +98,9 @@
     "energyCapacity": 400000,
     "energyMaxReceive": 200,
     "energyMaxExtract": 200,
-    "isFluidTank": true,
-    "fluidCapacity": 10000,
-    "fluidRestrictions": [
-      {
-        "value": "LAVA"
-      }
-    ],
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

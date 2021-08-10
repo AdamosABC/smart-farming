@@ -1,7 +1,27 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "smart_farming:block/pecna_pizzu"
+    },
+    "facing=east": {
+      "model": "smart_farming:block/pecna_pizzu",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "smart_farming:block/pecna_pizzu",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "smart_farming:block/pecna_pizzu",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "smart_farming:block/pecna_pizzu",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "smart_farming:block/pecna_pizzu",
+      "x": 90
     }
   }
 }
