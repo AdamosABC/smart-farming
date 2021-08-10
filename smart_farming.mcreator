@@ -206,21 +206,48 @@
           }
         ]
       }
+    },
+    {
+      "name": "Sul",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sul"
+    },
+    {
+      "name": "Sulre",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulre"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.smart_farming.smallpiza": "Smallpiza",
+      "item.smart_farming.sul": "Sul",
+      "item.smart_farming.pizza_l": "Pizza L",
+      "item.minecraft.splash_potion.effect.protlak": "Splash Protlak",
+      "item.smart_farming.pizza_1": "pizza tìsto",
+      "item.smart_farming.pizzaskecupem": "Pizza s kècupem",
+      "item.smart_farming.chesse": "Chesse",
       "item.smart_farming.test": "Test",
       "item.smart_farming.rohlik": "Rohlik",
-      "item.smart_farming.smallpiza": "Smallpiza",
       "block.smart_farming.pecna_pizzu": "Pecna Pizzu",
-      "item.smart_farming.pizza_l": "Pizza L",
-      "item.smart_farming.pizza_1": "pizza tìsto",
+      "effect.protlak": "Protlak",
+      "item.minecraft.lingering_potion.effect.protlak": "Lingering Protlak",
+      "item.smart_farming.rajce": "Rajce",
+      "item.minecraft.potion.effect.protlak": "Protlak",
       "item.smart_farming.pizzahj": "Pizzahj",
-      "item.smart_farming.pizzaskecupem": "Pizza s kècupem",
-      "item.smart_farming.pizzass": "Pizzass"
+      "item.smart_farming.pr": "Pr",
+      "item.smart_farming.pizzass": "Pizzass",
+      "item.minecraft.tipped_arrow.effect.protlak": "Arrow of Protlak"
     }
   },
   "foldersRoot": {
