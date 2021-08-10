@@ -1,11 +1,24 @@
 package net.mcreator.smartfarming.procedures;
 
+import net.minecraft.item.ItemStack;
+import net.minecraft.inventory.container.Slot;
+import net.minecraft.inventory.container.Container;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.smartfarming.item.PizzassItem;
+import net.mcreator.smartfarming.item.PizzahjItem;
+import net.mcreator.smartfarming.SmartFarmingModElements;
+import net.mcreator.smartfarming.SmartFarmingMod;
+
+import java.util.function.Supplier;
+import java.util.Map;
+
 @SmartFarmingModElements.ModElement.Tag
 public class PecenipizzyProcedure extends SmartFarmingModElements.ModElement {
-
 	public PecenipizzyProcedure(SmartFarmingModElements instance) {
 		super(instance, 11);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -14,9 +27,7 @@ public class PecenipizzyProcedure extends SmartFarmingModElements.ModElement {
 				SmartFarmingMod.LOGGER.warn("Failed to load dependency entity for procedure Pecenipizzy!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		if (((new Object() {
 			public int getAmount(int sltid) {
 				if (entity instanceof ServerPlayerEntity) {
@@ -90,7 +101,5 @@ public class PecenipizzyProcedure extends SmartFarmingModElements.ModElement {
 				}
 			}
 		}
-
 	}
-
 }
