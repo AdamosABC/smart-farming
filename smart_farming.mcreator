@@ -32,7 +32,7 @@
       "name": "PecnaPizzu",
       "type": "block",
       "sortid": 4,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "pecna_pizzu"
@@ -113,7 +113,7 @@
       "name": "Pecnapizzuguiu",
       "type": "gui",
       "sortid": 6,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "pecnapizzuguiu"
