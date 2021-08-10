@@ -233,6 +233,121 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "saltore"
+    },
+    {
+      "name": "Saladseed",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saladseed"
+    },
+    {
+      "name": "Salatfaze1",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salatfaze_1"
+    },
+    {
+      "name": "Salatfaze2",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salatfaze_2"
+    },
+    {
+      "name": "Salatfaze3",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salatfaze_3"
+    },
+    {
+      "name": "Seedplanting",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seedplanting",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Saladbreak",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saladbreak",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Salat",
+      "type": "food",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salat"
     }
   ],
   "variable_elements": [],
@@ -240,21 +355,26 @@
   "language_map": {
     "en_us": {
       "item.smart_farming.smallpiza": "Smallpiza",
-      "item.smart_farming.sul": "Sul",
       "item.smart_farming.pizza_l": "Pizza L",
-      "item.minecraft.splash_potion.effect.protlak": "Splash Protlak",
       "item.smart_farming.pizza_1": "pizza tìsto",
-      "item.smart_farming.pizzaskecupem": "Pizza s kècupem",
       "item.smart_farming.chesse": "Chesse",
       "item.smart_farming.test": "Test",
       "item.smart_farming.rohlik": "Rohlik",
-      "block.smart_farming.pecna_pizzu": "Pecna Pizzu",
       "block.smart_farming.saltore": "Saltore",
       "effect.protlak": "Protlak",
-      "item.minecraft.lingering_potion.effect.protlak": "Lingering Protlak",
       "item.minecraft.potion.effect.protlak": "Protlak",
-      "item.smart_farming.rajce": "Rajce",
       "item.smart_farming.pizzahj": "Pizzahj",
+      "item.smart_farming.salat": "Salat",
+      "item.smart_farming.sul": "Sul",
+      "block.smart_farming.salatfaze_3": "Salatfaze 3",
+      "block.smart_farming.salatfaze_1": "Salatfaze 1",
+      "block.smart_farming.salatfaze_2": "Salatfaze 2",
+      "item.minecraft.splash_potion.effect.protlak": "Splash Protlak",
+      "item.smart_farming.saladseed": "Saladseed",
+      "item.smart_farming.pizzaskecupem": "Pizza s kècupem",
+      "block.smart_farming.pecna_pizzu": "Pecna Pizzu",
+      "item.minecraft.lingering_potion.effect.protlak": "Lingering Protlak",
+      "item.smart_farming.rajce": "Rajce",
       "item.smart_farming.pr": "Pr",
       "item.smart_farming.pizzass": "Pizzass",
       "item.minecraft.tipped_arrow.effect.protlak": "Arrow of Protlak"
