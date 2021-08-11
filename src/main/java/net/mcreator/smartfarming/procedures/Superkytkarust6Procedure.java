@@ -10,6 +10,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.smartfarming.block.Superkytka7Block;
+import net.mcreator.smartfarming.block.Superkytka6Block;
 import net.mcreator.smartfarming.SmartFarmingModElements;
 import net.mcreator.smartfarming.SmartFarmingMod;
 
@@ -47,7 +48,7 @@ public class Superkytkarust6Procedure extends SmartFarmingModElements.ModElement
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
 		double randomChance = 0;
-		if ((!(world.isRemote()))) {
+		if (((world instanceof World) ? ((World) world).isDaytime() : false)) {
 			if ((!((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == Blocks.FARMLAND.getDefaultState()
 					.getBlock()))) {
 				if (world instanceof World) {
@@ -68,7 +69,7 @@ public class Superkytkarust6Procedure extends SmartFarmingModElements.ModElement
 					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "modidAttemptsMade")) == 7))) {
 						{
 							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-							BlockState _bs = Superkytka7Block.block.getDefaultState();
+							BlockState _bs = Superkytka6Block.block.getDefaultState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());

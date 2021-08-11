@@ -47,7 +47,7 @@ public class Superkytka5rust5Procedure extends SmartFarmingModElements.ModElemen
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
 		double randomChance = 0;
-		if ((!(world.isRemote()))) {
+		if (((world instanceof World) ? ((World) world).isDaytime() : false)) {
 			if ((!((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == Blocks.FARMLAND.getDefaultState()
 					.getBlock()))) {
 				if (world instanceof World) {
