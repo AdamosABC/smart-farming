@@ -9,7 +9,6 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.smartfarming.block.Superkytka4Block;
 import net.mcreator.smartfarming.block.Superkytka2Block;
 import net.mcreator.smartfarming.SmartFarmingModElements;
 import net.mcreator.smartfarming.SmartFarmingMod;
@@ -69,7 +68,7 @@ public class Kytkarust1Procedure extends SmartFarmingModElements.ModElement {
 					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "modidAttemptsMade")) == 7))) {
 						{
 							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-							BlockState _bs = Superkytka4Block.block.getDefaultState();
+							BlockState _bs = Superkytka2Block.block.getDefaultState();
 							BlockState _bso = world.getBlockState(_bp);
 							for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 								Property _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());
