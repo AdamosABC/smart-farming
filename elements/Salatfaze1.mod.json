@@ -24,7 +24,7 @@
     "boundingBoxes": [
       {
         "mx": 0.0,
-        "my": 0.101,
+        "my": 0.1,
         "mz": 0.0,
         "Mx": 1.0,
         "My": 1.0,
@@ -56,7 +56,7 @@
     },
     "tickRate": 10,
     "tickRandomly": false,
-    "isReplaceable": true,
+    "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": "CUSTOM:Saladseed"
@@ -101,9 +101,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "Rust"
-    },
     "onDestroyedByPlayer": {
       "name": "Saladbreak"
     },
